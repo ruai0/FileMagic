@@ -1,0 +1,9 @@
+{
+    "name": "格式转换",
+    "description": "Excel与其他格式互相转换",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "convert",
+    "enabled": true
+}

@@ -1,0 +1,10 @@
+{
+    "name": "PDF转图片",
+    "description": "将PDF页面转为PNG/JPG图片",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "pdf_img",
+    "enabled": true,
+    "dependencies": ["PyMuPDF>=1.23.0"]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "数据脱敏",
+    "description": "手机号、身份证、邮箱等敏感数据脱敏",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "mask",
+    "enabled": true
+}

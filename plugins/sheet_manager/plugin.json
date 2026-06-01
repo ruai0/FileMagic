@@ -1,0 +1,9 @@
+{
+    "name": "工作表管理",
+    "description": "批量导出/删除/重命名工作表",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "sheet",
+    "enabled": true
+}

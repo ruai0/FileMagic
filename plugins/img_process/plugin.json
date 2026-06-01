@@ -1,0 +1,10 @@
+{
+    "name": "图片批量处理",
+    "description": "批量压缩、格式转换、调整尺寸",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "图片处理",
+    "icon": "img_process",
+    "enabled": true,
+    "dependencies": ["Pillow>=9.0.0"]
+}

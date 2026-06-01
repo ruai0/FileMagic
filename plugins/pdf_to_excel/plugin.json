@@ -1,0 +1,9 @@
+{
+    "name": "PDF转Excel",
+    "description": "提取PDF表格数据到Excel",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "pdf_excel",
+    "enabled": true
+}

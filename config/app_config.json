@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "FileMagic",
+    "version": "1.0.0",
+    "language": "zh-CN",
+    "theme": "system"
+  },
+  "general": {
+    "auto_save": true,
+    "auto_save_interval": 300,
+    "recent_files_count": 10,
+    "default_encoding": "utf-8"
+  },
+  "interface": {
+    "dpi_aware": true,
+    "toolbar_style": "icon_and_text",
+    "sidebar_position": "left",
+    "status_bar_visible": true
+  },
+  "plugins": {
+    "auto_load": true,
+    "enabled_plugins": [
+      "*"
+    ],
+    "disabled_plugins": []
+  },
+  "advanced": {
+    "log_level": "INFO",
+    "log_file": "logs/app.log",
+    "backup_enabled": true,
+    "backup_dir": "backups"
+  }
+}

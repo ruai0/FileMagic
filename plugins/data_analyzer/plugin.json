@@ -1,0 +1,9 @@
+{
+    "name": "数据分析",
+    "description": "Excel数据统计分析和图表生成",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "analyze",
+    "enabled": true
+}

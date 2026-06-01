@@ -1,0 +1,9 @@
+{
+    "name": "图表生成",
+    "description": "生成柱状图、折线图、饼图",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "chart",
+    "enabled": true
+}

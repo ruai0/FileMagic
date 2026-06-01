@@ -1,0 +1,9 @@
+{
+    "name": "Word合并",
+    "description": "多个Word文档合并为一个",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Word处理",
+    "icon": "word_merge",
+    "enabled": true
+}

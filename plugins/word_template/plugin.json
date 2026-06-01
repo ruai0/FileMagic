@@ -1,0 +1,10 @@
+{
+    "name": "Word模板填充",
+    "description": "用Excel数据批量填充Word模板生成文档",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Word处理",
+    "icon": "word_template",
+    "enabled": true,
+    "dependencies": ["python-docx>=1.0.0"]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "PDF提取",
+    "description": "提取PDF中的文字和表格",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "pdf_extract",
+    "enabled": true,
+    "dependencies": ["pdfplumber>=0.10.0"]
+}

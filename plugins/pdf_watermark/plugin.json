@@ -1,0 +1,9 @@
+{
+    "name": "PDF水印",
+    "description": "给PDF添加文字水印",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "pdf_watermark",
+    "enabled": true
+}

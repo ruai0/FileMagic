@@ -1,0 +1,9 @@
+{
+    "name": "数据筛选",
+    "description": "多条件筛选导出",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "filter",
+    "enabled": true
+}

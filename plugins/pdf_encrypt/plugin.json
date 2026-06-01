@@ -1,0 +1,9 @@
+{
+    "name": "PDF加密",
+    "description": "给PDF设置密码保护",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "pdf_lock",
+    "enabled": true
+}

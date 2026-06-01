@@ -1,0 +1,9 @@
+{
+    "name": "PDF拆分",
+    "description": "按页码拆分PDF文件",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "pdf_split",
+    "enabled": true
+}

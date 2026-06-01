@@ -1,0 +1,10 @@
+{
+    "name": "PDF合并",
+    "description": "多个PDF合并成一个文件",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "pdf_merge",
+    "enabled": true,
+    "dependencies": ["pypdf>=3.0.0"]
+}

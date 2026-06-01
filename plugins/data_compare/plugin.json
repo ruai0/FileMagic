@@ -1,0 +1,9 @@
+{
+    "name": "数据对比",
+    "description": "对比两个Excel文件的差异",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "compare",
+    "enabled": true
+}

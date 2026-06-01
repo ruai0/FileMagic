@@ -220,8 +220,8 @@ MIT License - 详见 [LICENSE](LICENSE)
 
 ## 联系方式
 
-- GitHub: https://github.com/你的用户名/FileMagic
-- Gitee: https://gitee.com/你的用户名/FileMagic
+- GitHub: https://github.com/ruai0/FileMagic
+- Gitee: https://gitee.com/ruai0/FileMagic
 - Email: your-email@example.com
 
 ## 致谢

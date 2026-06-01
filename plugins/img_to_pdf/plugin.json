@@ -1,0 +1,9 @@
+{
+    "name": "图片转PDF",
+    "description": "将多张图片合并为一个PDF",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "img_pdf",
+    "enabled": true
+}

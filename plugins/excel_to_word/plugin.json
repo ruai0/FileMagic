@@ -1,0 +1,9 @@
+{
+    "name": "Excel转Word",
+    "description": "用Excel数据批量生成Word报告",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "excel_word",
+    "enabled": true
+}

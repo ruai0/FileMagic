@@ -1,0 +1,9 @@
+{
+    "name": "文件合并",
+    "description": "将多个Excel文件合并为一个文件",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "merge",
+    "enabled": true
+}

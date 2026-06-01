@@ -1,0 +1,9 @@
+{
+    "name": "PDF压缩",
+    "description": "压缩PDF文件大小",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "PDF处理",
+    "icon": "pdf_compress",
+    "enabled": true
+}

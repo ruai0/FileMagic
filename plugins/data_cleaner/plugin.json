@@ -1,0 +1,9 @@
+{
+    "name": "数据清洗",
+    "description": "清洗Excel数据，去重、处理空值等",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "clean",
+    "enabled": true
+}

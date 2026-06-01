@@ -1,0 +1,9 @@
+{
+    "name": "Word批量水印",
+    "description": "给多个Word文档批量添加水印",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Word处理",
+    "icon": "word_watermark",
+    "enabled": true
+}

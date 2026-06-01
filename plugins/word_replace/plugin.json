@@ -1,0 +1,9 @@
+{
+    "name": "Word替换",
+    "description": "批量查找替换Word中的文本",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Word处理",
+    "icon": "word_replace",
+    "enabled": true
+}

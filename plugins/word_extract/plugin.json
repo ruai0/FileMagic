@@ -1,0 +1,9 @@
+{
+    "name": "Word提取",
+    "description": "提取Word中的文字、表格、图片",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Word处理",
+    "icon": "word_extract",
+    "enabled": true
+}

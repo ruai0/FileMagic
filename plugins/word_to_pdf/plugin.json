@@ -1,0 +1,9 @@
+{
+    "name": "Word转PDF",
+    "description": "将Word文档转为PDF",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Word处理",
+    "icon": "word_pdf",
+    "enabled": true
+}

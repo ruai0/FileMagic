@@ -1,0 +1,9 @@
+{
+    "name": "文件拆分",
+    "description": "将Excel文件拆分为多个文件",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "split",
+    "enabled": true
+}

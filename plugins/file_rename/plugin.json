@@ -1,0 +1,9 @@
+{
+    "name": "文件重命名",
+    "description": "批量重命名Excel文件",
+    "version": "1.0.0",
+    "author": "ExcelTools",
+    "category": "Excel处理",
+    "icon": "rename",
+    "enabled": true
+}

@@ -1,11 +1,11 @@
-from .app import ExcelToolsApp
+from .app import FileMagicApp
 from .plugin_manager import PluginManager
 from .config_manager import ConfigManager
 from .logger import Logger
 from .event_bus import EventBus
 from .file_manager import FileManager
 from .exceptions import (
-    ExcelToolsError,
+    FileMagicError,
     PluginError,
     FileOperationError,
     ValidationError,
@@ -13,13 +13,13 @@ from .exceptions import (
 )
 
 __all__ = [
-    "ExcelToolsApp",
+    "FileMagicApp",
     "PluginManager",
     "ConfigManager",
     "Logger",
     "EventBus",
     "FileManager",
-    "ExcelToolsError",
+    "FileMagicError",
     "PluginError",
     "FileOperationError",
     "ValidationError",

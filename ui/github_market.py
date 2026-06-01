@@ -162,11 +162,36 @@ class PluginMarketDialog(QDialog):
     
     def _load_local_plugins(self):
         """加载本地插件列表（离线模式）"""
-        self.available_plugins = [
-            {"name": "excel_to_word", "description": "Excel转Word文档", "version": "1.0.0", "downloads": 0},
-            {"name": "pdf_compress", "description": "PDF压缩工具", "version": "1.0.0", "downloads": 0},
-            {"name": "word_template", "description": "Word模板填充", "version": "1.0.0", "downloads": 0},
-        ]
+        self.available_plugins = []
+        plugins_path = os.path.join(self.plugins_dir)
+        
+        if os.path.exists(plugins_path):
+            for item in os.listdir(plugins_path):
+                plugin_dir = os.path.join(plugins_path, item)
+                if os.path.isdir(plugin_dir):
+                    plugin_json_path = os.path.join(plugin_dir, "plugin.json")
+                    if os.path.exists(plugin_json_path):
+                        try:
+                            with open(plugin_json_path, "r", encoding="utf-8") as f:
+                                config = json.load(f)
+                                self.available_plugins.append({
+                                    "name": config.get("name", item),
+                                    "description": config.get("description", ""),
+                                    "version": config.get("version", "1.0.0"),
+                                    "downloads": 0
+                                })
+                        except:
+                            self.available_plugins.append({
+                                "name": item,
+                                "description": "",
+                                "version": "1.0.0",
+                                "downloads": 0
+                            })
+        
+        if not self.available_plugins:
+            self.status_label.setText("没有安装任何插件")
+        else:
+            self.status_label.setText(f"离线模式：显示 {len(self.available_plugins)} 个已安装插件")
         self._update_table()
     
     def _update_table(self):

@@ -5,16 +5,16 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from PyQt6.QtWidgets import QApplication
 from PyQt6.QtCore import Qt
-from core.app import ExcelToolsApp
+from core.app import FileMagicApp
 
 
 def main():
     app = QApplication(sys.argv)
-    app.setApplicationName("办公工具箱")
-    app.setOrganizationName("办公工具箱")
+    app.setApplicationName("FileMagic")
+    app.setOrganizationName("FileMagic")
     app.setApplicationVersion("1.0.0")
     
-    window = ExcelToolsApp()
+    window = FileMagicApp()
     window.show()
     
     sys.exit(app.exec())

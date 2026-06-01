@@ -27,7 +27,7 @@ class GitHubDownloader(QThread):
         try:
             self.progress.emit(0, "开始下载...")
             
-            req = urllib.request.Request(self.url, headers={"User-Agent": "ExcelTools"})
+            req = urllib.request.Request(self.url, headers={"User-Agent": "FileMagic"})
             with urllib.request.urlopen(req, timeout=30) as response:
                 total_size = response.headers.get("content-length", 0)
                 downloaded = 0
@@ -54,11 +54,11 @@ class PluginMarketDialog(QDialog):
     """插件市场对话框 - 支持同仓库管理插件和软件更新"""
     
     # ====== 配置区域 - 请修改为你的信息 ======
-    GITHUB_USER = "your-username"
-    GITHUB_REPO = "ExcelTools"
+    GITHUB_USER = "ruai0"
+    GITHUB_REPO = "FileMagic"
     
-    GITEE_USER = "your-username"
-    GITEE_REPO = "ExcelTools"
+    GITEE_USER = "ruai0"
+    GITEE_REPO = "FileMagic"
     # ====== 配置区域结束 ======
     
     def __init__(self, plugins_dir: str, parent=None):
@@ -132,7 +132,7 @@ class PluginMarketDialog(QDialog):
         api_url = self._get_api_url()
         
         try:
-            req = urllib.request.Request(api_url, headers={"User-Agent": "ExcelTools"})
+            req = urllib.request.Request(api_url, headers={"User-Agent": "FileMagic"})
             with urllib.request.urlopen(req, timeout=10) as response:
                 data = json.loads(response.read().decode())
                 
@@ -261,11 +261,11 @@ class UpdateChecker(QThread):
     check_complete = pyqtSignal(bool, str)
     
     # ====== 配置区域 - 请修改为你的信息 ======
-    GITHUB_USER = "your-username"
-    GITHUB_REPO = "ExcelTools"
+    GITHUB_USER = "ruai0"
+    GITHUB_REPO = "FileMagic"
     
-    GITEE_USER = "your-username"
-    GITEE_REPO = "ExcelTools"
+    GITEE_USER = "ruai0"
+    GITEE_REPO = "FileMagic"
     # ====== 配置区域结束 ======
     
     def __init__(self, current_version: str, platform: str = "github"):
@@ -280,7 +280,7 @@ class UpdateChecker(QThread):
             else:
                 url = f"https://gitee.com/api/v5/repos/{self.GITEE_USER}/{self.GITEE_REPO}/releases/latest"
             
-            req = urllib.request.Request(url, headers={"User-Agent": "ExcelTools"})
+            req = urllib.request.Request(url, headers={"User-Agent": "FileMagic"})
             with urllib.request.urlopen(req, timeout=10) as response:
                 data = json.loads(response.read().decode())
                 

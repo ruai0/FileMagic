@@ -20,8 +20,8 @@ class UpdateChecker(QThread):
     
     def run(self):
         try:
-            url = "https://api.github.com/repos/your-repo/ExcelTools/releases/latest"
-            req = urllib.request.Request(url, headers={"User-Agent": "ExcelTools"})
+            url = "https://api.github.com/repos/ruai0/FileMagic/releases/latest"
+            req = urllib.request.Request(url, headers={"User-Agent": "FileMagic"})
             
             try:
                 with urllib.request.urlopen(req, timeout=10) as response:
